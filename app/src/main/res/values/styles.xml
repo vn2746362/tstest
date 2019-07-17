@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppSpinner" parent="Base.Widget.AppCompat.Spinner.Underlined">
+        <item name="android:inputType">number</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:spinnerMode">dialog</item>
+    </style>
+
+    <style name="FullNameInput" parent="Widget.AppCompat.EditText">
+        <item name="android:inputType">textPersonName|textCapWords</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">255</item>
+        <item name="android:capitalize">words</item>
+        <item name="android:hint">@string/hint_full_name</item>
+    </style>
+
+    <style name="PhoneNumberInput" parent="Widget.AppCompat.EditText">
+        <item name="android:inputType">phone</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">11</item>
+        <item name="android:hint">@string/hint_phone_number</item>
+    </style>
+
+    <style name="NationalIdInput" parent="Widget.AppCompat.EditText">
+        <item name="android:inputType">number</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">12</item>
+        <item name="android:hint">@string/hint_national_id</item>
+    </style>
+
+    <style name="NumberInput" parent="Widget.AppCompat.EditText">
+        <item name="android:inputType">number</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

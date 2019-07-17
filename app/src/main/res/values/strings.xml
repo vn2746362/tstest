@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TSTest</string>
+
+    <!--Formats-->
+    <string name="format_amount_range">Hạn Mức: %,.0f vnd ~ %,.0f vnd</string>
+    <string name="format_tenor_range">Thời Hạn: %d tháng ~ %d tháng</string>
+    <string name="format_interest_rate">Lãi Suất: %.2f%%</string>
+
+    <!--Input Hints-->
+    <string name="hint_full_name">Họ và tên</string>
+    <string name="hint_phone_number">Số điện thoại di động</string>
+    <string name="hint_national_id">CMND</string>
+    <string name="hint_province">Địa chỉ</string>
+    <string name="hint_monthly_income">Thu nhập hàng tháng</string>
+
+    <!--Buttons-->
+    <string name="button_loans_submit">Gửi đăng ký vay</string>
+
+    <!--Messages-->
+    <string name="msg_full_name_is_required">Chưa nhập Họ và tên</string>
+    <string name="msg_phone_number_is_required">Chưa nhập Số điện thoại di động</string>
+    <string name="msg_phone_number_is_invalid">Số điện thoại di động không hợp lệ</string>
+    <string name="msg_national_id_not_in_range">CMND phải từ 9~12 chữ số</string>
+    <string name="msg_province_is_required">Chưa chọn Địa chỉ</string>
+    <string name="msg_monthly_income_is_required">Chưa nhập Thu nhập hàng tháng</string>
+    <string name="msg_monthly_income_must_be_greater">Thu nhập hàng tháng phải lớn hơn %,.0f vnd</string>
+
+</resources>

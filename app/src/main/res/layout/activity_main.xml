@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:src="@drawable/ic_launcher_background"/>
+
+        <TextView
+            android:id="@+id/tvBankName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/TextAppearance.AppCompat.Headline"
+            tools:text="Vietcombank"/>
+
+        <TextView
+            android:id="@+id/tvAmountRange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            style="@style/TextAppearance.AppCompat"
+            tools:text="Hạn Mức: 300000~100000000"/>
+
+        <TextView
+            android:id="@+id/tvTenorRange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            style="@style/TextAppearance.AppCompat"
+            tools:text="Thời Hạn: 6~18"/>
+
+        <TextView
+            android:id="@+id/tvInterestRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            style="@style/TextAppearance.AppCompat"
+            tools:text="Lãi Suất: 7%"/>
+
+
+        <EditText
+            android:id="@+id/edtFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FullNameInput"/>
+
+        <EditText
+            android:id="@+id/edtPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PhoneNumberInput"/>
+
+        <EditText
+            android:id="@+id/edtNationalId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/NationalIdInput"/>
+
+        <EditText
+            android:id="@+id/edtMonthlyIncome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_monthly_income"
+            style="@style/NumberInput"/>
+
+        <Spinner
+            android:id="@+id/spnProvinces"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/hint_province"
+            style="@style/AppSpinner"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/button_loans_submit"/>
+    </LinearLayout>
+</ScrollView>
